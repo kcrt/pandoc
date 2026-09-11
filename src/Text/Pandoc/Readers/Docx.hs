@@ -320,7 +320,8 @@ runStyleToTransform rPr' = do
             superscript . go rPr{rVertAlign = Nothing}
         | Just SubScrpt <- rVertAlign rPr =
             subscript . go rPr{rVertAlign = Nothing}
-        | Just "single" <- rUnderline rPr =
+        | Just v <- rUnderline rPr
+        , v /= "none" =
             Pandoc.underline . go rPr{rUnderline = Nothing}
         | otherwise = id
   return $ go rPr'

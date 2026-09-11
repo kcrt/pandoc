@@ -1,0 +1,8 @@
+Pandoc (Meta {unMeta = fromList []})
+[Para [Str "single:",Space,Underline [Str "marked"],Space,Str "plain"]
+,Para [Str "double:",Space,Underline [Str "marked"],Space,Str "plain"]
+,Para [Str "thick:",Space,Underline [Str "marked"],Space,Str "plain"]
+,Para [Str "wave:",Space,Underline [Str "marked"],Space,Str "plain"]
+,Para [Str "dotted:",Space,Underline [Str "marked"],Space,Str "plain"]
+,Para [Str "words:",Space,Underline [Str "marked"],Space,Str "plain"]
+,Para [Str "none:",Space,Str "marked",Space,Str "plain"]]

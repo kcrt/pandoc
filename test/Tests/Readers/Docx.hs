@@ -112,6 +112,10 @@ tests = [ testGroup "document"
             "docx/char_styles.docx"
             "docx/char_styles.native"
           , testCompare
+            "underline styles"
+            "docx/underline_styles.docx"
+            "docx/underline_styles.native"
+          , testCompare
             "hyperlinks"
             "docx/links.docx"
             "docx/links.native"
